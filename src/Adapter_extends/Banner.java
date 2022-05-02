@@ -1,5 +1,9 @@
-package Adapter;
+package Adapter_extends;
 
+/**
+ * @author yuich
+ * すでに提供されている部品
+ */
 public class Banner {
 	private String string;
 
