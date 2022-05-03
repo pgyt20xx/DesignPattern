@@ -20,7 +20,7 @@ public class StringDisplay extends AbstractDisplay {
 
 	@Override
 	public void print() {
-		System.out.println("*|*" + string + "*|*");
+		System.out.println("|" + string + "|");
 	}
 
 	@Override
@@ -30,9 +30,9 @@ public class StringDisplay extends AbstractDisplay {
 
 	// openとcloseから呼び出されて"+----+"という文字列を表示するメソッド
 	private void printLine() {
-		System.out.println("+");
+		System.out.print("+");
 		for (int i = 0; i < width; i++) {
-			System.out.println("-");
+			System.out.print("-");
 		}
 		System.out.println("+");
 	}
