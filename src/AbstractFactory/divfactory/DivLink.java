@@ -1,0 +1,15 @@
+package AbstractFactory.divfactory;
+
+import AbstractFactory.factory.Link;
+
+public class DivLink extends Link {
+	
+	public DivLink(String caption, String url) {
+		super(caption, url);
+	}
+
+	@Override
+	public String makeHTML() {
+		return "<div class=\"Link\"><a href=\"" + url + "\">" + caption + "</a><div>\n";
+	}
+}

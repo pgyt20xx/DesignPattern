@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head><title>Blog and News</title></head>
+<body>h1Blog and News</h1>
+<ul>
+<li>
+Blog Site
+<ul>
+ <li><a href="https://example.com/blog1">Blog 1</a></li>
+ <li><a href="https://example.com/blog2">Blog 2</a></li>
+ <li><a href="https://example.com/blog3">Blog 3</a></li>
+</ul>
+</li>
+<li>
+News Site
+<ul>
+ <li><a href="https://example/news1">News 1</a></li>
+ <li><a href="https://example/news2">News 2</a></li>
+</ul>
+</li>
+</ul>
+<hr><address>Yuichi</address>
+</body></html>
